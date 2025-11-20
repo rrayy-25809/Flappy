@@ -1,0 +1,14 @@
+root = true
+
+[*]
+indent_type = space
+
+[.xml]
+indent_size = 2
+
+[*.cs]
+indent_size = 4
+tab_width = 4
+
+csharp_new_line_before_open_brace = none
+dotnet_diagnostic.IDE0055.severity = error
